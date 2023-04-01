@@ -1,9 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        String s = "ali@gmail.com";
-        String news = s.replace("@gmail.com","");
+//        Student s1 = new Student("samer");
+//        s1.setName("samer ali ali");
+//        System.out.println(s1.getName());
 
-        System.out.println(s);
-        System.out.println(news);
+        Cal c1 = new Cal(12,3,".");
+        c1.compute();
+        System.out.println(c1.result);
+
     }
 }
