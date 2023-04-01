@@ -1,7 +1,7 @@
 public class TestString {
     public static void main(String[] args) {
-        String myName = "osama m alshokri";
-        int n = myName.length();
-        System.out.println(n);
+        String greeting = "welcome ahmed";
+        int count = greeting.replace("ahmed","ali").length();
+        System.out.println(count);
     }
 }
