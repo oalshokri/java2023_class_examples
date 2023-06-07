@@ -22,10 +22,30 @@ public class Ch6 {
 //        for(int i = 3 ; i>0; i--){
 //            System.out.println(i);
 //        }
-        int i = 3;
-        while (i>0){
-            System.out.println(i);
-            i--;
+
+//        int i = 3;
+//        while (i>0){
+//            System.out.println(i);
+//            i--;
+//        }
+
+//        int[] numbers = new int[3];
+//
+//        int amount = 550;
+//
+//        for(int i = 0 ; i<numbers.length;i++)
+//            numbers[i] *=i+amount -3000  ;
+//
+//        for(int item : numbers)
+//            System.out.println(amount);
+
+        String[] names = {"ahmed","ali","bob"};
+
+        for(int i = 0 ; i<names.length;i++){
+            if(i>0)
+            System.out.print(" |"+" "+ names[i]);
+            else
+                System.out.print(names[i]);
         }
 
     }
